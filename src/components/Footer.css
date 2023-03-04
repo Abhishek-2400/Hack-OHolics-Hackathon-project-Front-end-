@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
 .footer-container {
-    background-color: black;
+    background-color: #9F6539;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
+.f{
+    margin-bottom: 30px;
+}
 
 .foot-subscription {
     display: flex;
@@ -18,15 +23,19 @@
 
 .foot-subscription-heading {
     font-size: 24px;
+    font-family: 'Raleway', cursive;
+    margin-top: 20px;
 }
 
 .foot-subscription-text {
     font-size: 24px;
+    font-family: 'Raleway', cursive;
+    margin-bottom: 30px;
 }
 
 .footer-input {
     padding: 8px 20px;
-    border-radius: 3px;
+    border-radius: 10px;
     outline: none;
     border: none;
     text-align: center;

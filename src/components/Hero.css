@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 video {
     object-fit: cover;
     width: 100%;
@@ -57,4 +59,19 @@ video {
         width: 100%;
 
     }
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway Dots', cursive;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
 }

@@ -1,18 +1,19 @@
 import React from 'react'
 import { Button } from './Button'
 import './Hero.css';
-import video from '../videos/fraud.mp4';
+import video from '../videos/mars.mp4';
 function Hero() {
     return (
         <div className='hero-container'>
             <video src={video} autoPlay loop muted></video>
-            <h1>Comapny Name / Tag Line</h1>
-            <p>Tag line</p>
+            <h1>MARSBISTRO</h1>
+            <h3>Where every dish is a celebration of the cosmos</h3>
+            {/* <p>Tag line</p> */}
             <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Polar bear</Button>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Sign in as a Customer</Button>
                 <br></br>
                 <br></br>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>OM FO</Button>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Sign in as a Restaurant</Button>
             </div>
         </div>
     );
